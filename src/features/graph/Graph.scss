@@ -1,0 +1,21 @@
+.graph {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+
+    canvas {
+        /*
+            NOTE: 
+                Setting the height and width here will stretch the canvas. 
+                Use the canvas height/width properties instead.
+        */
+        background-color: inherit;
+    }
+
+    .centered {
+        position: absolute;
+        top: 10%;
+        left: 10%;
+    }
+}
